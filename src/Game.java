@@ -24,7 +24,7 @@ public class Game {
             answer = hint(userNumberList, computerNumberList);
             user.resetUserNumber();
         }
-        retry();
+        retry();    //재시작 여부 확인
     }
 
     public void retry(){

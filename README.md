@@ -41,3 +41,5 @@
     - Console 입력
     - Console 출력
 
+### 숫자야구 로직
+![baseBallLogic](https://github.com/ChangHoon97/numberBaseBallGame/assets/118735836/2de767d4-317d-401c-a2be-65261895edd1)

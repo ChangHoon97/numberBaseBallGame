@@ -15,7 +15,7 @@ public class Computer {
     public int generateFullNumber(int length){
         int randomNumber = generateSingleNumber();
         if(!computerNumber.contains(randomNumber)){
-            
+
         }
     }
 

@@ -40,6 +40,6 @@
     - 게임의 시작과 재시작 여부
 
 4. View 객체
+    - Console 입력
     - Console 출력
-
 

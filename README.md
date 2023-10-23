@@ -23,8 +23,6 @@
 
 <br>
 
-### User, Computer 객체는 View에 의존하지 않는다.
-### View는 Game에 의존하지 않는다.
 ### 객체는 User, Computer, Game, View로 나누어진다.
 
 1. User 객체

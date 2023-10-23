@@ -32,9 +32,6 @@ public class View {
     public String retryPrint(){     //게임 재시작 여부
         System.out.println("게임을 새로 시작하려면 1, 종료하려면 2를 입력하세요.");
         String userInput = sc.nextLine();
-        if(!userInput.equals("1") && !userInput.equals("2")){
-            throw new IllegalArgumentException("잘못 입력하셨습니다.");
-        }
         return userInput;
     }
 }

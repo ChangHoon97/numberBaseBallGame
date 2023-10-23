@@ -30,10 +30,15 @@ public class Game {
     public void retry(){
         String userInput = view.retryPrint();
 
+        if(!userInput.equals("1") && !userInput.equals("2")){
+            throw new IllegalArgumentException("잘못 입력하셨습니다.");
+        }
+
         if(userInput.equals("1")){
             answer = false;
             run();
         }
+
     }
 
     private boolean hint(ArrayList<Integer> userNumberList, ArrayList<Integer> computerNumberList){     //hint를 print하고 정답 여부 반환

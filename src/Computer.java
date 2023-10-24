@@ -10,6 +10,11 @@ public class Computer {
         generateFullNumber();
     }
 
+    public void computerNumberReset(){
+        computerNumber.clear();
+        generateFullNumber();
+    }
+
     private int generateSingleNumber(){  //단일 랜덤 숫자 생성 메서드
         return  (int) (Math.random() * 8) + 1;
     }

@@ -24,10 +24,10 @@ public class Game {
             answer = hint(userNumberList, computerNumberList);
             user.resetUserNumber();
         }
-        retry();    //재시작 여부 확인
+        computer.computerNumberReset();     // 정답 번호 리셋
     }
 
-    public void retry(){
+    public boolean retry(){
         String userInput = view.retryPrint();
 
         if(!userInput.equals("1") && !userInput.equals("2")){
@@ -36,7 +36,9 @@ public class Game {
 
         if(userInput.equals("1")){
             answer = false;
-            run();
+            return true;
+        }else{
+            return false;
         }
 
     }

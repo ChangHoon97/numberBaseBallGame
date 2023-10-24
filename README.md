@@ -42,7 +42,7 @@
     - Console 출력
 
 ### 숫자야구 로직
-![baseBallLogic](https://github.com/ChangHoon97/numberBaseBallGame/assets/118735836/2de767d4-317d-401c-a2be-65261895edd1)
+![baseballLogicV1](https://github.com/ChangHoon97/numberBaseBallGame/assets/118735836/be01a1d9-5e3b-452a-a4f7-86759717f4bb)
 
 <br>
 <br>

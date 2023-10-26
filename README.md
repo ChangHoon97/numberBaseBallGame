@@ -42,4 +42,12 @@
     - Console 출력
 
 ### 숫자야구 로직
-![baseBallLogic](https://github.com/ChangHoon97/numberBaseBallGame/assets/118735836/2de767d4-317d-401c-a2be-65261895edd1)
+![baseballLogicV1](https://github.com/ChangHoon97/numberBaseBallGame/assets/118735836/be01a1d9-5e3b-452a-a4f7-86759717f4bb)
+
+<br>
+<br>
+
+**version update(2023-10-24)**
+
+Game 객체 안의 run()메서드와 retry()메서드가 재귀적으로 호출하는 관계로 개발하였습니다.<br>
+하지만 이는 수 많은 retry()가 발생했을 때 스택 오버 플로우가 발생 할 수 있기에 재귀적으로 호출하지 않게 Main객체에서 retry()를 관리하도록 변경했습니다.

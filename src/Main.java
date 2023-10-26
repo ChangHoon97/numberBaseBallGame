@@ -9,5 +9,7 @@ public class Main {
             gameEnd = game.retry();
         }
 
+        System.out.println("Testing");
+
     }
 }
